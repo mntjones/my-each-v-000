@@ -1,3 +1,12 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(array)
+  index = 0
+  while index < array.size
+    array.collect do |word|
+      yield
+      index += 1
+    end
+  end
 end
+
+my_each { |word|
+  puts word }
