@@ -11,4 +11,4 @@ def my_each(array)
   array
 end
 
-my_each(array[index]) puts array[index]
+my_each(array[index]) puts
