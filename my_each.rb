@@ -2,7 +2,7 @@ def my_each(array)
   index = 0
   while index < array.size
     array.collect do |word|
-      yield
+      yield(array)
       index += 1
     end
   end
