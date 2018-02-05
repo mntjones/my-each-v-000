@@ -11,4 +11,4 @@ def my_each(array)
   array
 end
 
-my_each(['hi', 'hello', 'bye', 'goodbye'])
+puts my_each(['hi', 'hello', 'bye', 'goodbye'])
