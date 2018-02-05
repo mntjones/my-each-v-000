@@ -10,3 +10,5 @@ def my_each(array)
   end
   array
 end
+
+my_each(['hi', 'hello', 'bye', 'goodbye'])
