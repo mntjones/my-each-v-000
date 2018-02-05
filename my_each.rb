@@ -10,4 +10,3 @@ def my_each(array)
   end
   array
 end
-puts my_each(['hi', 'hello', 'bye', 'goodbye'])
